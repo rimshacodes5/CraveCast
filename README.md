@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CraveCast 🥐🍱 — Predictive Demand & Waste Prevention Engine for Home Food Entrepreneurs
 
-## Getting Started
+> Created for **Hacktoberfest 2026** 🎃  
 
-First, run the development server:
+> An AI agent pipeline combining zero-shot tabular demand forecasting, dish-specific grocery procurement, pre-order social synthesis, and full Sentry telemetry tracing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**CraveCast** is a culinary-themed AI decision dashboard designed for home-based food entrepreneurs, cloud kitchens, meal preppers, and artisanal bakers. By analyzing hyper-local environmental factors—such as day of the week, weather forecasts, ambient temperature, and payday cycles—CraveCast predicts exact batch prep requirements, estimates food spoilage risks, and calculates protected capital.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Additionally, CraveCast automatically synthesizes dish-specific raw ingredient shopping lists and generates high-converting pre-order broadcasts for WhatsApp and Instagram to lock in orders before cooking starts.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **🧠 TabPFN Zero-Shot Demand Engine**: Predicts optimal batch sizes and calculates waste risk percentages based on real-time operational factors.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **📊 TabPFN Decision Matrix Breakdown**: Explains the exact reasoning behind portion adjustments (e.g., `+15 Weekend Surge`, `-8 Rain Impact`, `+10 Payday Boost`).
 
-## Deploy on Vercel
+* **🛒 Dynamic Dish-Specific Procurement Matrix**: Type any custom menu item (*"Belgian Chocolate Cake"*, *"Steamed Beef Momos"*, *"Spicy Hotpot"*, *"Chicken Biryani"*) to automatically generate a calculated raw ingredient grocery list.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **📣 Gemma Pre-Order Broadcast Generator**: Synthesizes pre-order broadcast drafts with direct **1-click WhatsApp launch** and quick-copy functionality.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **🛡️ Real-Time Profit Guard**: Detects unit margin deficits and alerts users if selling price drops below portion cost.
+
+* **🔍 Sentry Agent Telemetry**: Full end-to-end tracing across all pipeline spans `agent.pipeline` → `ai.tabpfn` → `ai.gemma`).
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework**: Next.js (App Router, React 19)
+
+* **Styling**: Tailwind CSS (v4) with PostCSS
+
+* **Language**: TypeScript
+
+* **Icons**: Lucide React
+
+* **Observability & Tracing**: Sentry Agent Monitoring
+
+* **Palette**: Dark Chocolate Brown `#1C100D`), Vanilla Cream `#FAF6F0`), Espresso `#2C1A1D`), Terracotta `#D97757`)
+
+---
+
+## 🎃 Hacktoberfest 2026
+
+This repository is an official participant in **Hacktoberfest 2026**! We welcome contributions from developers, open-source enthusiasts, and AI builders worldwide.
+
+### How to Contribute:
+
+1. Fork the repository.
+
+2. Pick an open issue or suggest a new feature (e.g., multi-language broadcast support, expanded dish ingredient models, or local weather API integration).
+
+3. Create a feature branch: `git checkout -b feature/amazing-feature`.
+
+4. Commit your changes and open a Pull Request with the `hacktoberfest` tag.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js 18.x or later
+
+* npm / pnpm / yarn
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+
+   git clone [[https://github.com/your-username/CraveCast.git](https://github.com/your-username/CraveCast.git)](https://github.com/your-username/CraveCast.git](https://github.com/your-username/CraveCast.git))
+
+   cd CraveCast
